@@ -151,43 +151,43 @@ The primary contributions are:
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">Pix2Pix (CVPR, 2017)</td>
+      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">Pix2Pix (CVPR '17)</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">217.7814</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.7055</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><b>16.3526</b></td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.6199</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">293.9488</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.6554</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">13.9647</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.3528</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">182.5380</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.3095</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">19.0610</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.6870</td>
     </tr>
     <tr style="background-color: #f8f9fa;">
-      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">Pix2PixHD (CVPR, 2018)</td>
+      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">Pix2PixHD (CVPR '18)</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><u>147.3903</u></td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><u>0.3944</u></td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><u>15.7957</u></td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><b>0.9270</b></td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">227.4111</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.6653</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">14.8828</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.4184</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><b>97.7339</b></td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><b>0.0768</b></td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><b>32.1554</b></td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><b>0.9164</b></td>
     </tr>
     <tr>
-      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">StegoGAN (CVPR, 2024)</td>
+      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">StegoGAN (CVPR '24)</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">346.3830</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.9165</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">12.7144</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.5367</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><u>115.2302</u></td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><u>0.4161</u></td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">14.0133</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><u>0.6723</u></td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><u>117.5049</u></td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><u>0.1084</u></td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><u>26.8914</u></td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><u>0.3696</u></td>
     </tr>
     <tr style="background-color: #f8f9fa;">
-      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">FCDiffusion (AAAI, 2024)</td>
+      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">FCDiffusion (AAAI '24)</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">220.4016</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.4984</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">10.2435</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.7326</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">358.5142</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.9222</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">9.1056</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.3153</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">244.1984</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.5488</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">10.9218</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.4064</td>
     </tr>
     <tr>
-      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">CDTSDE (ICLR, 2026)</td>
+      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">CDTSDE (ICLR '26)</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">324.5986</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">1.0362</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">11.5687</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.2929</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">372.1441</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.8467</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">8.0781</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.1728</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">368.4434</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">1.1323</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">6.2722</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.0639</td>
     </tr>
     <tr style="background-color: #f8f9fa;">
-      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">LBM (ICCV, 2025)</td>
+      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">LBM (ICCV '25)</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">362.9729</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.9045</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">11.4484</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.5648</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><b>104.7898</b></td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><b>0.3423</b></td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><b>15.5496</b></td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><b>0.7128</b></td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">314.1208</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.8173</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.9629</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.0902</td>
     </tr>
     <tr>
-      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">Dual-App-Bridge (CVPR, 2025)</td>
+      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">Dual-App-Bridge (CVPR '25)</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">295.8813</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">1.0167</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">12.4218</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.4318</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">277.2984</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.6890</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">13.3723</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.3485</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">366.2873</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">1.0632</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">8.7943</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.1451</td>
@@ -200,6 +200,7 @@ The primary contributions are:
     </tr>
   </tbody>
 </table>
+
 
 <br>
 
@@ -220,43 +221,43 @@ The primary contributions are:
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">Pix2Pix (CVPR, 2017)</td>
+      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">Pix2Pix (CVPR '17)</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">209.8003</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.6046</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><b>16.4602</b></td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.8122</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">403.9548</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.6284</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><u>16.9690</u></td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.3357</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">165.5936</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.1034</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">32.3151</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.9019</td>
     </tr>
     <tr style="background-color: #f8f9fa;">
-      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">Pix2PixHD (CVPR, 2018)</td>
+      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">Pix2PixHD (CVPR '18)</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">185.2071</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><u>0.3701</u></td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><u>16.4481</u></td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.8540</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">247.8943</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.5703</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">16.2233</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.4299</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><b>94.2014</b></td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><u>0.0679</u></td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><u>32.9161</u></td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><u>0.9234</u></td>
     </tr>
     <tr>
-      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">StegoGAN (CVPR, 2024)</td>
+      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">StegoGAN (CVPR '24)</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">337.5476</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.9007</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">13.6483</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.5252</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><u>173.1464</u></td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><u>0.4402</u></td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">14.5769</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><u>0.7048</u></td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">129.4041</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.1821</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">27.7744</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.6831</td>
     </tr>
     <tr style="background-color: #f8f9fa;">
-      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">FCDiffusion (AAAI, 2024)</td>
+      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">FCDiffusion (AAAI '24)</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><u>183.9098</u></td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.4061</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">14.9057</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><u>0.9249</u></td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">324.8305</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.8411</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">11.5574</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.3199</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">198.7715</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.4008</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">12.4607</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.5551</td>
     </tr>
     <tr>
-      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">CDTSDE (ICLR, 2026)</td>
+      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">CDTSDE (ICLR '26)</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">302.9182</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.5753</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">6.3171</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.1681</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">557.3730</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.9949</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">8.1969</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.1566</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">362.2896</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">1.1299</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">4.3720</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.0371</td>
     </tr>
     <tr style="background-color: #f8f9fa;">
-      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">LBM (ICCV, 2025)</td>
+      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">LBM (ICCV '25)</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">195.8215</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.6406</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">14.0168</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.8135</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><b>154.1106</b></td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><b>0.3413</b></td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><b>17.4772</b></td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><b>0.7202</b></td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">219.9140</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.0911</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">32.1548</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.9204</td>
     </tr>
     <tr>
-      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">Dual-App-Bridge (CVPR, 2025)</td>
+      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">Dual-App-Bridge (CVPR '25)</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">296.9056</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">1.0171</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">13.5553</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.3696</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">366.0795</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.6802</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">13.9759</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.3513</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">328.4411</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">1.0999</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">8.3544</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.1245</td>
@@ -269,6 +270,7 @@ The primary contributions are:
     </tr>
   </tbody>
 </table>
+
 
 <br>
 
@@ -289,43 +291,43 @@ The primary contributions are:
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">Pix2Pix (CVPR, 2017)</td>
+      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">Pix2Pix (CVPR '17)</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">293.1730</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.8780</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><b>15.9983</b></td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.3083</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">326.7645</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.6933</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><b>14.2128</b></td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.3220</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">314.3107</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.8278</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><b>14.7264</b></td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.3701</td>
     </tr>
     <tr style="background-color: #f8f9fa;">
-      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">Pix2PixHD (CVPR, 2018)</td>
+      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">Pix2PixHD (CVPR '18)</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">156.1668</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.4075</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">14.7992</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.9066</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><u>291.7448</u></td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><u>0.6920</u></td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">13.4232</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><u>0.3710</u></td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><u>247.7035</u></td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><u>0.6992</u></td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">13.2611</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.3979</td>
     </tr>
     <tr>
-      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">StegoGAN (CVPR, 2024)</td>
+      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">StegoGAN (CVPR '24)</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">267.3759</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.6241</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">6.4949</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.2068</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">424.3611</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">1.0139</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">7.5584</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.0228</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">360.2431</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">1.0138</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">6.7281</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.0620</td>
     </tr>
     <tr style="background-color: #f8f9fa;">
-      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">FCDiffusion (AAAI, 2024)</td>
+      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">FCDiffusion (AAAI '24)</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><u>152.5789</u></td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><b>0.3885</b></td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">14.7436</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><b>0.9221</b></td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">352.5077</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.8596</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">10.7871</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.3020</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">388.1550</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.9271</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">11.4776</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><b>0.4536</b></td>
     </tr>
     <tr>
-      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">CDTSDE (ICLR, 2026)</td>
+      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">CDTSDE (ICLR '26)</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">328.6274</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">1.0330</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">11.5363</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.1732</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">406.3377</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.7710</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">11.0487</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.2269</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">364.0502</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.7723</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">11.1651</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.1765</td>
     </tr>
     <tr style="background-color: #f8f9fa;">
-      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">LBM (ICCV, 2025)</td>
+      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">LBM (ICCV '25)</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">182.8692</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.4173</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">13.0116</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.8769</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">511.5784</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.9427</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">9.8985</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.3116</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">425.2980</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.9063</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">11.1131</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><u>0.4044</u></td>
     </tr>
     <tr>
-      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">Dual-App-Bridge (CVPR, 2025)</td>
+      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">Dual-App-Bridge (CVPR '25)</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">274.4586</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.9734</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">9.7430</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.5091</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">347.7046</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.7404</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">10.1213</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.3094</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">303.5912</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.7438</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">9.7162</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.3334</td>
@@ -338,6 +340,7 @@ The primary contributions are:
     </tr>
   </tbody>
 </table>
+
 
 ---
 
