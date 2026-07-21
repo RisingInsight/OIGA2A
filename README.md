@@ -69,7 +69,7 @@ The primary contributions are:
 <table align="center" style="width: 110%; margin-left: -5% border-collapse: collapse; font-size: 14px;">
   <thead>
     <tr style="background-color: #2c3e50; color: white;">
-      <th rowspan="2" style="text-align: left; padding: 10px; min-width: 190px; border: 1px solid #2c3e50;">Method</th>
+      <th rowspan="2" style="text-align: center; padding: 10px; min-width: 280px; border: 1px solid #2c3e50;">Method</th>
       <th colspan="4" style="text-align: center; padding: 10px; border: 1px solid #2c3e50;">DEM &rarr; NIR</th>
       <th colspan="4" style="text-align: center; padding: 10px; border: 1px solid #2c3e50;">DEM &rarr; RGB</th>
       <th colspan="4" style="text-align: center; padding: 10px; border: 1px solid #2c3e50;">DEM &rarr; SPOT</th>
@@ -82,7 +82,7 @@ The primary contributions are:
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left; padding: 8px; border-bottom: 1px solid #ecf0f1;">Pix2Pix (CVPR '17)</td>
+      <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">Pix2Pix (CVPR '17)</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">367.1304</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.7081</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">13.6182</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.2387</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">272.0429</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.7273</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;"><b>14.3057</b></td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.3532</td>
       <td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">176.7447</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.1125</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">29.8107</td><td style="text-align: center; padding: 8px; border-bottom: 1px solid #ecf0f1;">0.8483</td>
