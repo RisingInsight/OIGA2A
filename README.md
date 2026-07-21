@@ -58,7 +58,7 @@ The primary contributions are:
 
 ---
 
-## 📊 Results
+## Results
 
 ### Comparison with Existing Methods
 *Note: Our method employs a **single unified Any-to-Any model** for all 12 tasks, whereas all baseline methods require training **12 independent One-to-One models**.*
@@ -356,5 +356,4 @@ The primary contributions are:
 
 ---
 
-## Citation
-If you find our work useful in your research, please consider citing our paper
+
