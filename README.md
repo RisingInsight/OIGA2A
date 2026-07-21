@@ -66,7 +66,7 @@ The primary contributions are:
 #### (a) Source Modality: DEM → ANY
 <!-- 使用 HTML 表格并加宽 Method 列 -->
 
-<table align="center" style="width: 100%; border-collapse: collapse; font-size: 14px;">
+<table align="center" style="width: 110%; margin-left: -5% border-collapse: collapse; font-size: 14px;">
   <thead>
     <tr style="background-color: #2c3e50; color: white;">
       <th rowspan="2" style="text-align: left; padding: 10px; min-width: 190px; border: 1px solid #2c3e50;">Method</th>
@@ -200,7 +200,6 @@ The primary contributions are:
     </tr>
   </tbody>
 </table>
-
 
 <br>
 
