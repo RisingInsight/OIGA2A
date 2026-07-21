@@ -344,7 +344,7 @@ The primary contributions are:
 
 ---
 
-### 🎨 Visualization
+### Visualization
 
 <div align="center">
 
