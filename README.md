@@ -2,7 +2,7 @@
 
 # OIGA2A: Open Instruction Guided Any-to-Any Aerial Image Translation via a Single Flow Matching Model
 
-**Anonymous Authors** | Under Review at AAAI 2027
+**Anonymous Authors** | Under Review at ICLR 2027
 
 > *The code will be released upon paper acceptance to foster reproducibility in the remote sensing community.*
 
