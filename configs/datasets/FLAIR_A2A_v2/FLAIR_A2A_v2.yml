@@ -1,0 +1,6 @@
+train:
+  - datafolder_name: FLAIR_ALL_MODALITIES/train
+val:
+  - datafolder_name: FLAIR_ALL_MODALITIES/val
+test:
+  - datafolder_name: FLAIR_ALL_MODALITIES/test

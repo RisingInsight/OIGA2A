@@ -1,0 +1,96 @@
+model:
+  model_arch: sit_v2
+  model_config:
+    arch: L              # L
+    patch_size: 2
+    cfg_scale: 1.5
+    num_modalities: 4
+    num_adapters: 4
+    adapter_reduction: 2  # v5: 4→2 增大 adapter 容量
+    cross_attn_layers: [3, 6, 9, 12, 15, 18, 21, 23]  # v5: 6层→8层 增强文本条件注入
+    context_dim: 768
+    clip_model_name: "ViT-L/14"
+    lora_rank: 16  # v5: 4→16 增大 CLIP 适配容量
+    lora_alpha: 16  # v5: 4→16 保持 alpha=rank
+    vae_path: ./checkpoints/klvae_a2a/last.ckpt
+    vae_config:
+      in_channels: 3
+      out_channels: 3
+      down_block_types: ['DownEncoderBlock2D', 'DownEncoderBlock2D', 'DownEncoderBlock2D', 'DownEncoderBlock2D']
+      up_block_types: ['UpDecoderBlock2D', 'UpDecoderBlock2D', 'UpDecoderBlock2D', 'UpDecoderBlock2D']
+      block_out_channels: [128, 256, 512, 512]
+      layers_per_block: 2
+      act_fn: silu
+      latent_channels: 4
+      norm_num_groups: 32
+      sample_size: 512
+      force_upcast: True
+      use_quant_conv: True
+      use_post_quant_conv: True
+      mid_block_add_attention: True
+    transport_config:
+      path_type: Linear
+      prediction: velocity
+      loss_weight: None
+    divisible: 16
+    target_normalizer: [1.01356, 1.01670, 0.99277, 1.03784]
+    sit_lr: 3e-5  # v5: 5e-5→3e-5 更稳定收敛
+    lora_lr: 6e-5  # v5: 1e-4→6e-5 降低 LoRA 学习率
+
+datasets:
+  datasets_folder: "./datasets_preprocess"
+  instructions_path: "dataloaders/instructions_a2a_v2.json"
+  train_datasets:
+    - FLAIR_A2A
+  val_datasets:
+    - FLAIR_A2A
+  test_datasets:
+    - FLAIR_A2A
+  modality_pairs:
+    - [0, 1]
+    - [0, 2]
+    - [0, 3]
+    - [1, 0]
+    - [1, 2]
+    - [1, 3]
+    - [2, 0]
+    - [2, 1]
+    - [2, 3]
+    - [3, 0]
+    - [3, 1]
+    - [3, 2]
+
+training:
+  stage: 2
+  num_epochs: 300  # v5: 150→300 延长训练
+  num_samples_per_epoch: 4225
+  train_batch_size: 8
+  test_batch_size: 4
+  num_workers: 4
+  gradient_accumulation: 4
+  val_freq: 50
+  train_image_size: [512, 512]
+  # Stage 2 从 Stage 1 checkpoint 加载，继续训练 CLIP LoRA
+  # Stage 1 训练完成后，将路径替换为实际 checkpoint 路径
+  load: ./OIGA2A_A2A_V2/nljwpbxintk6nwvoqzqu4/checkpoints/last.ckpt
+  load_type: finetune
+  optimizer:
+    name: AdamW
+    lr: 3e-5  # v5: 5e-5→3e-5 更稳定收敛
+    weight_decay: 0.01
+    momentum: 0.9
+  scheduler:
+    name: cosine
+    args:
+      T_max: 300  # v5: 150→300 对应 epoch 数
+      warmup_epochs: 15  # v5: 10→15 更充分的 warmup
+  loss:
+    name: 'sit'
+    config: None
+  mixed_precision: False
+  gradient_clip_val: 1.0
+  gradient_clip_algorithm: norm
+
+generate:
+  dataset_names:
+    - FLAIR_A2A

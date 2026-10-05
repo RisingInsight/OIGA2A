@@ -2,9 +2,9 @@
 
 # OIGA2A: Open Instruction Guided Any-to-Any Aerial Image Translation via a Single Flow Matching Model
 
-**Anonymous Authors** | Under Review at ICLR 2027
+**Anonymous Authors** | Under Review at IEEE TCSVT
 
-> *The code will be released upon paper acceptance to foster reproducibility in the remote sensing community.*
+> *A partial code release (data pipeline, instruction pool, intent router, and configs) is now available in this repository. The complete codebase will be released after the paper review is concluded — see [Code Release](#code-release).*
 
 [![Paper](https://img.shields.io/badge/Paper-Under%20Review-red)](https://anonymous.4open.science/r/OIGA2A-XXXX)
 [![Framework](https://img.shields.io/badge/Framework-Flow%20Matching-blue)]()
@@ -354,3 +354,24 @@ The primary contributions are:
 
 ---
 
+
+## Code Release
+
+**Partial release now — full code after review.** This repository currently hosts part of the codebase:
+
+| Component | Status |
+|---|---|
+| Data pipeline (`preprocess_a2a.py`, `dataloaders/`) | ✅ Released |
+| 3,000-instruction pool (`dataloaders/instructions_a2a_v2.json`) | ✅ Released |
+| Instruction-to-modality router (`scripts/instruction_router.py`) | ✅ Released |
+| Configuration files (`configs/`) | ✅ Released |
+| Core model implementation (`oiga2a_model.py`, `sit_networks_a2a_v2.py`, `clip_lora.py`, `losses_a2a.py`) | 🔒 Stubbed (`NotImplementedError`) |
+| Full training & inference pipeline | ⏳ To be released after the paper review is concluded |
+
+The instruction-to-modality router can be tried directly — it resolves the target modality from an open instruction alone, achieving 100% accuracy on our 55-instruction benchmark:
+
+```bash
+python scripts/instruction_router.py --demo "show me the terrain height"
+python scripts/instruction_router.py                       # run the 55-instruction routing benchmark
+python scripts/instruction_router.py --eval-pool dataloaders/instructions_a2a_v2.json
+```
