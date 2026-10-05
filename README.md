@@ -350,7 +350,7 @@ The primary contributions are:
 
 *Visualization of translation results across some modality pairs.*
 
-
+</div>
 
 ---
 
