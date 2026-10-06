@@ -375,3 +375,7 @@ python scripts/instruction_router.py --demo "show me the terrain height"
 python scripts/instruction_router.py                       # run the 55-instruction routing benchmark
 python scripts/instruction_router.py --eval-pool dataloaders/instructions_a2a_v2.json
 ```
+
+## Acknowledgement
+
+We thank the following projects for their open-source code: [SiT](https://github.com/willisma/SiT) (Scalable Interpolant Transformers) and [LDM](https://github.com/CompVis/latent-diffusion) (Latent Diffusion Models), whose codebases informed our implementation. We also thank the [FLAIR-HUB](https://github.com/IGN-F/FLAIR-HUB) team for releasing the benchmark used in this work.
