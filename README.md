@@ -6,7 +6,7 @@
 
 > *A partial code release (data pipeline, instruction pool, intent router, and configs) is now available in this repository. The complete codebase will be released after the paper review is concluded — see [Code Release](#code-release).*
 
-[![Paper](https://img.shields.io/badge/Paper-Under%20Review-red)](https://anonymous.4open.science/r/OIGA2A-XXXX)
+[![Paper](https://img.shields.io/badge/Paper-Under%20Review-red)]()
 [![Framework](https://img.shields.io/badge/Framework-Flow%20Matching-blue)]()
 [![License](https://img.shields.io/badge/License-MIT-green)]()
 
@@ -15,12 +15,9 @@
 ---
 
 ## Abstract
-Existing aerial image cross-modal translation methods typically train separate models for each source-target modality pair, requiring full retraining for every new modality combination. This results in quadratically increasing total model size and deployment complexity as the number of modalities grows, severely limiting their scalability in practical multi-modal remote sensing applications.
-
-To address this limitation, we propose **Open Instruction Guided Any-to-Any (OIGA2A)**, a single weight framework enabling open instruction guided **any-to-any** translation among RGB, Near-Infrared (NIR), Digital Elevation Models (DEM) and SPOT satellite imagery. It leverages a **flow matching** diffusion Transformer operating in a shared latent space learned by a single jointly trained KL-regularized Variational Autoencoder (VAE). A dynamic loss mask router adaptively applies L<sub>1</sub>+perceptual loss for optical texture modalities and spatial gradient consistency loss for topographic DEM, ensuring faithful reconstruction while preserving unique modality characteristics.
-
-A conditioning scheme integrates open instruction semantics via a LoRA finetuned CLIP encoder and structural alignment via AdaLN-Zero modulation, with classifier free guidance further enhancing inference controllability. Extensive experiments across all 12 possible translation directions demonstrate that our **single unified model** outperforms pair-specific baselines on average across most quantitative metrics, while consolidating all directions into a single deployable weight set and qualitatively demonstrating faithful open-vocabulary instruction following. By consolidating all mappings into one compact model, OIGA2A significantly reduces deployment complexity and storage footprint, enabling efficient deployment for real world remote sensing applications.
-
+Pairwise aerial cross-modal translation requires a dedicated model for each source–target direction, leading to quadratic growth in model count and deployment overhead.
+To address this limitation, we propose **Open Instruction Guided Any-to-Any (OIGA2A)**, a unified model that supports all 12 translation directions among RGB, near-infrared (NIR), digital elevation models (DEMs), and SPOT satellite imagery, guided by free-form natural-language instructions. The generator is a flow matching diffusion Transformer that operates in a shared latent space learned by a single jointly trained KL-regularized variational autoencoder. A dynamic loss mask router supplements pixel-wise reconstruction with perceptual supervision for optical imagery and spatial gradient constraints for elevation maps. A conditioning scheme integrates open instruction semantics via a LoRA-finetuned CLIP encoder and structural alignment via AdaLN-Zero modulation, with classifier-free guidance further enhancing inference controllability.
+Extensive experiments on all 12 translation directions show that this unified model outperforms seven pair-specific baselines in average FID, LPIPS, and SSIM, consolidating all directions into one deployable weight set and remaining robust to arbitrary expert phrasing. By unifying all mappings, OIGA2A replaces up to twelve per-direction checkpoints with one 721.7M-parameter model. This unified, instruction-driven paradigm offers a promising foundation for scalable multimodal image synthesis in UAV-based Earth observation and broader remote-sensing applications. The data pipeline, the full instruction pool, and the instruction-to-modality router are publicly available at [github.com/RisingInsight/OIGA2A](https://github.com/RisingInsight/OIGA2A); the complete codebase and trained checkpoints will be released upon acceptance.
 ---
 
 ## Contributions
