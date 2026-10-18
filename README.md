@@ -15,6 +15,7 @@
 ---
 
 ## Abstract
+
 Pairwise aerial cross-modal translation requires a dedicated model for each source–target direction, leading to quadratic growth in model count and deployment overhead. To address this limitation, we propose Open Instruction Guided Any-to-Any (OIGA2A), a unified model that supports all 12 translation directions among RGB, near-infrared (NIR), digital elevation models (DEMs), and SPOT satellite imagery, guided by free-form natural-language instructions. The generator is a flow matching diffusion Transformer that operates in a shared latent space learned by a single jointly trained KL-regularized variational autoencoder. A dynamic loss mask router adaptively applies L1+perceptual loss for optical-texture modalities and a spatial gradient consistency loss for topographic DEM, ensuring faithful reconstruction while preserving unique modality characteristics. A conditioning scheme integrates open instruction semantics via a LoRA-finetuned CLIP encoder and structural alignment via AdaLN-Zero modulation, with classifier-free guidance further enhancing inference controllability. Extensive experiments on all 12 translation directions show that this unified model outperforms seven pair-specific baselines in average FID, LPIPS, and SSIM, consolidating all directions into one deployable weight set and remaining robust to arbitrary expert phrasing. By unifying all mappings, OIGA2A replaces up to twelve per-direction checkpoints with one 721.7M-parameter model. This unified, instruction-driven paradigm offers a promising foundation for scalable multimodal image synthesis in UAV-based Earth observation and broader remote-sensing applications. Code is available at [github.com/RisingInsight/OIGA2A](https://github.com/RisingInsight/OIGA2A).
 ---
 
@@ -52,9 +53,11 @@ The main contributions are summarized as follows:
 ## Results
 
 ### Comparison with Existing Methods
+
 *Note: Our method employs a **single unified Any-to-Any model** for all 12 tasks, whereas all baseline methods require training **12 independent One-to-One models**.*
 
 #### (a) Source Modality: DEM → ANY
+
 <!-- 使用 HTML 表格并加宽 Method 列 -->
 
 <table align="center" style="width: 110%; margin-left: -5% border-collapse: collapse; font-size: 14px;">
@@ -125,6 +128,7 @@ The main contributions are summarized as follows:
 <br>
 
 #### (b) Source Modality: NIR → ANY
+
 <table align="center" style="width: 100%; border-collapse: collapse; font-size: 14px;">
   <thead>
     <tr style="background: linear-gradient(135deg, #2980b9, #3498db); color: white;">
@@ -194,6 +198,7 @@ The main contributions are summarized as follows:
 <br>
 
 #### (c) Source Modality: RGB → ANY
+
 <table align="center" style="width: 100%; border-collapse: collapse; font-size: 14px;">
   <thead>
     <tr style="background: linear-gradient(135deg, #2980b9, #3498db); color: white;">
@@ -264,6 +269,7 @@ The main contributions are summarized as follows:
 <br>
 
 #### (d) Source Modality: SPOT → ANY
+
 <table align="center" style="width: 100%; border-collapse: collapse; font-size: 14px;">
   <thead>
     <tr style="background: linear-gradient(135deg, #2980b9, #3498db); color: white;">
